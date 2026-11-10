@@ -19,7 +19,7 @@
 <p>We do not run servers for the app. There are no user accounts, no ads, no analytics and no tracking. Your data is stored on your device and in your own iCloud account. We cannot access it.</p>
 
 <h2>Data stored in your iCloud</h2>
-<p>The app stores your saved places, tags, notes, ratings, planned and detected visits, trips and import jobs in your private iCloud database (Apple CloudKit). Apple synchronizes this data between your own devices.</p>
+<p>The app stores your saved places, tags, notes, ratings, planned and detected visits, trips, import jobs and your current "I'm here" check-in in your private iCloud database (Apple CloudKit). Apple synchronizes this data between your own devices.</p>
 
 <h2>Location</h2>
 <p>With your permission, the app uses your location to:</p>
@@ -27,6 +27,7 @@
 <li>show your position on the map and calculate distances and routes,</li>
 <li>detect visits to places you have saved (only with "Always" access; you can turn it off per place),</li>
 <li>share your approximate location with friends you choose, if you turn on Live Location (off by default),</li>
+<li>end an "I'm here" check-in when you leave the place (only with visit detection),</li>
 <li>record which areas you explore while Explorer mode is on (off by default).</li>
 </ul>
 <p>Location data is processed on your device. Where it is shared, it is stored in iCloud. You can change the permission at any time in the iOS Settings.</p>
@@ -43,6 +44,7 @@
 <h2>Friends and sharing</h2>
 <p>If you invite a friend, the app uses iCloud sharing. The phone number or email address you enter is passed to Apple to deliver and verify the invitation.</p>
 <p>Friends you connect with can see the upcoming visits you share with them: coordinates and dates, and the place name only if you allow it. Notes are never shared. You can turn off sharing per visit and per place. If you turn on Live Location, friends you select can see how far away you are; your exact position is not shown in the app.</p>
+<p>With "I'm here" you can show friends where you are right now. You choose the place, a status text and how long it stays visible (30 minutes to 4 hours, or until the end of the day). Only friends for whom you turn on "Share 'I'm here'" can see it: the place's name, coordinates and Apple Maps identifier, your status, and how long it lasts. If you have turned off sharing place names, the name is left out. The check-in is stored in your iCloud and shared with these friends through iCloud sharing. It is deleted when it ends - at the chosen time, when you end it, when you leave the place (if visit detection is on) or when you check in somewhere else. Friends' apps hide it at the chosen time even if your phone is offline.</p>
 <p>To offer sharing back without a link, the app stores an invitation in the public CloudKit database. It contains your iCloud user identifier, your chosen display name and an encrypted link that only the invited friend can read. It is deleted once the invitation is accepted or withdrawn. You can remove friends at any time.</p>
 
 <h2>Exporting places</h2>
@@ -52,7 +54,7 @@
 <p>Purchases are processed by Apple. We do not receive your payment information.</p>
 
 <h2>Notifications</h2>
-<p>Notifications, for example about detected visits, potential meetups or nearby friends, are created on your device.</p>
+<p>Notifications, for example about detected visits, potential meetups, nearby friends or friends' "I'm here" check-ins, are created on your device.</p>
 
 <h2>Your rights</h2>
 <p>Because your data is stored in your own iCloud, you can view, export and delete it at any time: in the app, under iOS Settings → [your name] → iCloud, or by deleting the app. For questions or requests under the GDPR, contact us at <a href="mailto:jip@preuschl.com">jip@preuschl.com</a>. You also have the right to lodge a complaint with a supervisory authority.</p>
